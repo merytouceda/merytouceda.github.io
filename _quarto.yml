@@ -1,13 +1,15 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "okmers.github.io"
+  title: "Mery Touceda-Suárez"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
+      - publications.qmd
 
 format:
   html:
