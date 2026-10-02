@@ -1,0 +1,23 @@
+---
+title: "Omics with R"
+date: 2026-08-01
+subtitle: "NC State University, Raleigh, NC"
+description: "An introduction to analyzing omics data in R."
+categories: [workshop, R, bioinformatics]
+image: photo-2.jpg
+---
+
+An introduction to analyzing omics data in R.
+
+::: {layout-ncol=2}
+![](photo-2.jpg){fig-alt="Mery pointing to a slide explaining the three steps of DESeq2" group="photos"}
+
+![](photo-1.jpg){fig-alt="Mery presenting R code on a screen to a room of students with laptops" group="photos"}
+:::
+
+<!--
+## Materials
+
+- [Slides](https://...)
+- [Workshop website / GitHub repo](https://...)
+-->

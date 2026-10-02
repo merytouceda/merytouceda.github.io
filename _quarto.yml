@@ -3,6 +3,7 @@ project:
   output-dir: docs
   resources:
     - files/*
+    - images/*
 
 website:
   title: "Mery Touceda-Suárez"
@@ -15,6 +16,8 @@ website:
         text: About me
       - href: publications.qmd
         text: Publications
+      - href: outreach.qmd
+        text: Outreach
       - href: art.qmd
         text: Art
       - href: writing.qmd

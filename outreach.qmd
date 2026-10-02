@@ -1,0 +1,17 @@
+---
+title: "Outreach"
+body-classes: section-outreach
+toc: false
+listing:
+  contents: outreach
+  type: grid
+  sort: "date desc"
+  categories: true
+  date-format: "MMMM YYYY"
+  fields: [image, date, title, subtitle, description]
+  image-placeholder: images/outreach-placeholder.svg
+  image-height: 180px
+  grid-columns: 3
+---
+
+Workshops, courses and community events I've taught or organized. Each page has photos, a short description and links to the materials.

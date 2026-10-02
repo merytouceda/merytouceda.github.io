@@ -5,6 +5,7 @@ body { --section-accent: var(--site-teal); }
 body.section-art { --section-accent: var(--site-coral); }
 body.section-writing { --section-accent: var(--site-saffron); }
 body.section-publications { --section-accent: var(--site-plum); }
+body.section-outreach { --section-accent: var(--site-teal); }
 
 /* Accent underline on page titles and section headings */
 .quarto-title h1.title,
@@ -152,3 +153,21 @@ main h2 { border-bottom: none; }
   color: var(--site-ink);
 }
 .skills p { margin-bottom: 0.6rem; }
+
+/* Listing cards: smaller subtitle (used for location on Outreach) */
+.quarto-grid-item .listing-subtitle {
+  font-size: 0.85rem;
+  color: var(--site-teal);
+  margin-bottom: 0.4rem;
+}
+
+/* Workshop pages: the description is already in the body, so hide it in the title block */
+body.section-outreach #title-block-header .description { display: none; }
+
+/* Workshop photo galleries: same height, cropped to fill */
+body.section-outreach .quarto-layout-row img {
+  height: 320px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+}

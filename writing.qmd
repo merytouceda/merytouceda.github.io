@@ -3,10 +3,29 @@ title: "Writing"
 body-classes: section-writing
 toc: false
 listing:
-  contents: posts
-  type: default
-  sort: "date desc"
-  categories: true
-  feed: true
-  fields: [date, title, description, categories, reading-time]
+  - id: blog
+    contents: posts
+    type: default
+    sort: "date desc"
+    feed: true
+    fields: [date, title, description, categories, reading-time]
+  - id: elsewhere
+    contents: elsewhere.yml
+    type: default
+    sort: "date desc"
+    fields: [date, title, author, description, categories]
 ---
+
+::: {.panel-tabset}
+
+## Blog
+
+::: {#blog}
+:::
+
+## Published elsewhere
+
+::: {#elsewhere}
+:::
+
+:::

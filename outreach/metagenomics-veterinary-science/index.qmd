@@ -1,0 +1,25 @@
+---
+title: "Metagenomics for Veterinary Science"
+date: 2026-06-01
+subtitle: "University College Dublin, Dublin, Ireland"
+description: "Metagenomic analysis workflows for veterinary science researchers."
+categories: [workshop, metagenomics]
+# image: photo-1.jpg   # card image on the Outreach page
+---
+
+Metagenomic analysis workflows for veterinary science researchers.
+
+<!--
+Photos: put them in this folder and list them here. Click to enlarge.
+
+::: {layout-ncol=2}
+![](photo-1.jpg)
+
+![](photo-2.jpg)
+:::
+
+## Materials
+
+- [Slides](https://...)
+- [Workshop website / GitHub repo](https://...)
+-->

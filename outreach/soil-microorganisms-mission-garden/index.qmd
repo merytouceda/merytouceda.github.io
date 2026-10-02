@@ -1,0 +1,25 @@
+---
+title: "Soil Microorganisms and Their Role in Soil Health"
+date: 2024-10-01
+subtitle: "Mission Garden, Tucson, AZ"
+description: "A community workshop on the microbes living in garden soil and why they matter for soil health."
+categories: [community, soil health]
+# image: photo-1.jpg   # card image on the Outreach page
+---
+
+A community workshop on the microbes living in garden soil and why they matter for soil health.
+
+<!--
+Photos: put them in this folder and list them here. Click to enlarge.
+
+::: {layout-ncol=2}
+![](photo-1.jpg)
+
+![](photo-2.jpg)
+:::
+
+## Materials
+
+- [Slides](https://...)
+- [Workshop website / GitHub repo](https://...)
+-->
