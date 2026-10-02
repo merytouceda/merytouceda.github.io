@@ -1,6 +1,6 @@
 ---
 title: "Publications"
+toc: true
 ---
 
 List of publications
-

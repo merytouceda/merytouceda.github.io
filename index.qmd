@@ -1,9 +1,18 @@
 ---
-title: "merytouceda.github.io"
-about: 
+title: "Mery Touceda-Suárez"
+image: images/profile.jpg
+about:
   template: jolla
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/mtouceda/
+    - icon: github
+      text: GitHub
+      href: https://github.com/merytouceda
+    - icon: mortarboard
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=0Y3imusAAAAJ&hl=en
 ---
 
 Welcome to my site!
-
-

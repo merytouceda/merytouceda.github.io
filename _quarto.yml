@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Mery Touceda-Suárez"
+  site-url: https://merytouceda.github.io
   navbar:
     left:
       - href: index.qmd
@@ -17,7 +18,3 @@ format:
   html:
     theme: cosmo
     css: styles.css
-    toc: true
-
-
-
