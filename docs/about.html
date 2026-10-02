@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About – Mery Touceda-Suárez</title>
+<title>About me – Mery Touceda-Suárez</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-b488e0d0cb2ea1d6555c3dc2785e2a47.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-4550219262ddeea725883fe6a3db2699.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/bootstrap/bootstrap-dark-f5818300de34a70ac54b9987f2617eba.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-b488e0d0cb2ea1d6555c3dc2785e2a47.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-4550219262ddeea725883fe6a3db2699.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -77,7 +77,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -220,7 +220,8 @@ ul.task-list li input[type="checkbox"] {
       }
     };
     const authorPrefersDark = false;
-    const darkModeDefault = authorPrefersDark;
+    const queryPrefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+    const darkModeDefault = queryPrefersDark.matches;
       document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
       document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
     let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
@@ -233,6 +234,14 @@ ul.task-list li input[type="checkbox"] {
       toggleGiscusIfUsed(toAlternate, darkModeDefault);
       window.dispatchEvent(new Event('resize'));
     };
+    queryPrefersDark.addEventListener("change", e => {
+      if(window.localStorage.getItem("quarto-color-scheme") !== null)
+        return;
+      const alternate = e.matches
+      toggleColorMode(alternate);
+      localAlternateSentinel = e.matches ? 'alternate' : 'default'; // this is used alongside local storage!
+      toggleGiscusIfUsed(alternate, darkModeDefault);
+    });
     // Switch to dark mode if need be
     if (hasAlternateSentinel()) {
       toggleColorMode(true);
@@ -297,14 +306,29 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#research-interests" id="toc-research-interests" class="nav-link active" data-scroll-target="#research-interests">Research interests</a></li>
+  <li><a href="#experience" id="toc-experience" class="nav-link" data-scroll-target="#experience">Experience</a></li>
+  <li><a href="#education" id="toc-education" class="nav-link" data-scroll-target="#education">Education</a></li>
+  <li><a href="#teaching-and-workshops" id="toc-teaching-and-workshops" class="nav-link" data-scroll-target="#teaching-and-workshops">Teaching and workshops</a></li>
+  <li><a href="#talks-and-presentations" id="toc-talks-and-presentations" class="nav-link" data-scroll-target="#talks-and-presentations">Talks and presentations</a></li>
+  <li><a href="#awards-and-fellowships" id="toc-awards-and-fellowships" class="nav-link" data-scroll-target="#awards-and-fellowships">Awards and fellowships</a></li>
+  <li><a href="#community-and-outreach" id="toc-community-and-outreach" class="nav-link" data-scroll-target="#community-and-outreach">Community and outreach</a></li>
+  <li><a href="#skills" id="toc-skills" class="nav-link" data-scroll-target="#skills">Skills</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title">About me</h1>
 </div>
 
 
@@ -321,9 +345,157 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>About this site</p>
+<p>I’m a postdoctoral researcher at the <a href="https://brc.ncsu.edu/">Bioinformatics Research Center</a> at North Carolina State University, where I study viral, bacterial and plasmid communities in environmental metagenomes. I’m interested in how microbes adapt to a changing climate, and in finding solutions that improve outcomes for people and the planet.</p>
+<p>I care about open science, reproducibility and FAIR data: good science should be usable and verifiable by others, not just publishable. As a <strong>Nextflow Ambassador (2026)</strong>, I lead workshops and write training materials that take graduate students and professionals from zero to running their own pipelines.</p>
+<p><a href="files/Touceda-Suarez_CV.pdf" class="btn btn-primary" target="_blank"><i class="bi bi-file-earmark-pdf"></i> Download my CV</a></p>
+<section id="research-interests" class="level2">
+<h2 class="anchored" data-anchor-id="research-interests">Research interests</h2>
+<div class="grid">
+<section id="viruses-and-plasmids-in-the-environment" class="level3 g-col-12 g-col-md-4 interest">
+<h3 class="anchored" data-anchor-id="viruses-and-plasmids-in-the-environment">Viruses and plasmids in the environment</h3>
+<p>Viral and mobile genetic element discovery in soil, wastewater and gut metagenomes, and what these elements tell us about how microbial communities respond to disturbance.</p>
+</section>
+<section id="reproducible-benchmarked-pipelines" class="level3 g-col-12 g-col-md-4 interest coral">
+<h3 class="anchored" data-anchor-id="reproducible-benchmarked-pipelines">Reproducible, benchmarked pipelines</h3>
+<p>Nextflow pipelines that benchmark machine-learning viral inference tools against simulated communities with known ground truth, to find out where they fail.</p>
+</section>
+<section id="open-science-and-training" class="level3 g-col-12 g-col-md-4 interest plum">
+<h3 class="anchored" data-anchor-id="open-science-and-training">Open science and training</h3>
+<p>Bioinformatics curricula, from HPC and Bash to metagenomics and Nextflow, built to make computational biology accessible to non-specialists.</p>
+</section>
+</div>
+</section>
+<section id="experience" class="level2">
+<h2 class="anchored" data-anchor-id="experience">Experience</h2>
+<div class="cv-item">
+<p><span class="cv-date">Sep 2025 – present</span></p>
+<p><strong>Postdoctoral Researcher</strong> · Bioinformatics Research Center, NC State University · Raleigh, NC</p>
+<ul>
+<li>Building a reproducible Nextflow pipeline to benchmark ML-based viral inference tools (geNomad, VirSorter2, DeepVirFinder) against simulated communities</li>
+<li>Designing lab-wide computational infrastructure, including Nextflow pipeline logic and a structured data lake for multi-omics workflows</li>
+<li>Leading viral and plasmid analysis of European wastewater samples, and of the bee gut microbiome in a passage experiment on microbial drift</li>
+<li>Developing and teaching bioinformatics curricula (HPC, Unix/Bash, metagenomics, RNA-Seq, Nextflow) at NC State and University College Dublin</li>
+<li>Deploying nf-core pipelines as self-service Open OnDemand apps on the institutional HPC via nf2ood</li>
+</ul>
+</div>
+<div class="cv-item">
+<p><span class="cv-date">Jan 2020 – May 2025</span></p>
+<p><strong>Graduate Assistant</strong> · Barberán Lab, University of Arizona · Tucson, AZ</p>
+<ul>
+<li>Led viral and plasmid metagenomic analysis of soil samples on university HPC</li>
+<li>Designed bioinformatics pipelines for soil and environmental metagenomics</li>
+<li>Led field soil sampling and DNA extraction for viral and microbial community studies</li>
+<li>Instructor of record and teaching assistant for undergraduate data analysis and environmental science courses</li>
+</ul>
+</div>
+<div class="cv-item">
+<p><span class="cv-date">Feb 2019 – May 2019</span></p>
+<p><strong>Junior Programmer</strong> · Sopra Steria · Madrid, Spain</p>
+<ul>
+<li>Back-end application programming</li>
+</ul>
+</div>
+<div class="cv-item">
+<p><span class="cv-date">Jun 2017 – Mar 2018</span></p>
+<p><strong>Graduate Assistant</strong> · Technical University of Denmark (DTU) · Copenhagen, Denmark</p>
+<ul>
+<li>Curated microbial tool metadata for ELIXIR bio.tools, and supported nitritation-anammox wastewater bioreactor research at DTU Environment</li>
+</ul>
+</div>
+</section>
+<section id="education" class="level2">
+<h2 class="anchored" data-anchor-id="education">Education</h2>
+<div class="cv-item">
+<p><span class="cv-date">2020 – 2025</span></p>
+<p><strong>PhD in Environmental Science</strong> · University of Arizona</p>
+<p>Dissertation: <em>Harnessing metagenomics to unveil the underrepresented fraction of the soil microbiome</em>. Advisor: Dr.&nbsp;Albert Barberán.</p>
+</div>
+<div class="cv-item">
+<p><span class="cv-date">2018</span></p>
+<p><strong>MSc in Bioinformatics</strong> · University of Copenhagen</p>
+<p>Thesis at DTU Environment: <em>Network construction and analysis from microbial community meta-omics data</em>. Advisor: Dr.&nbsp;Barth F. Smets.</p>
+</div>
+<div class="cv-item">
+<p><span class="cv-date">2016</span></p>
+<p><strong>BSc in Human Biology</strong> · Pompeu Fabra University, Barcelona</p>
+<p>Thesis at the Centre for Genomic Regulation (CRG), Systems Biology. Advisor: Dr.&nbsp;Manuel Irimia.</p>
+</div>
+</section>
+<section id="teaching-and-workshops" class="level2">
+<h2 class="anchored" data-anchor-id="teaching-and-workshops">Teaching and workshops</h2>
+<p><strong>Workshops I’ve led</strong></p>
+<ul>
+<li>BRC Nextflow Workshop, NC State University (Oct 2026)</li>
+<li>Omics with R, NC State University (Aug 2026)</li>
+<li>Metagenomics for Veterinary Science, University College Dublin, Ireland (Jun 2026)</li>
+<li>Introduction to Hazel HPC, NC State University (Sep 2025 – May 2026, plus a week-long intensive in May 2026)</li>
+<li>Soil Microorganisms and Their Role in Soil Health, Mission Garden, Tucson (Oct 2024)</li>
+<li>Complex Systems Science: a two-day workshop on complexity science and network analysis, University of Arizona (2023)</li>
+</ul>
+<p><strong>Courses</strong></p>
+<ul>
+<li>Invited lecturer, GN 427 Introductory Bioinformatics, NC State (Fall 2026)</li>
+<li>Instructor of record, ENVS 275 Data Analysis for Life and Environmental Sciences, University of Arizona (Fall 2023)</li>
+<li>Teaching assistant, ENVS 275 (Fall 2021, Fall 2022) and ENVS 107 Introduction to Environmental Science (Spring 2022)</li>
+</ul>
+<p><strong>Mentoring</strong></p>
+<p>I currently mentor four PhD students at NC State. At the University of Arizona I mentored master’s, accelerated master’s and undergraduate honors projects, and Carson Scholars (2023–2024).</p>
+</section>
+<section id="talks-and-presentations" class="level2">
+<h2 class="anchored" data-anchor-id="talks-and-presentations">Talks and presentations</h2>
+<p><strong>Oral presentations</strong></p>
+<ul>
+<li><em>Differences in the genetic potential of soil microbial communities of urban greenspaces vs.&nbsp;natural arid soils</em>. ENVISION, University of Arizona (2024). <span class="award">Honorable mention</span></li>
+<li><em>Soil health: microorganisms in Mission Garden soil</em>. Mission Garden lecture series, Tucson (2024)</li>
+<li><em>Effects of historical agricultural crops on the soil microbiome of a living agricultural museum in the Sonoran Desert</em>. ENVISION, University of Arizona (2022)</li>
+<li><em>Effect of land use in arid soil microbial communities</em>. Women in Data Science, Tucson (2021). <span class="award">Data BLITZ winner</span></li>
+<li><em>Soil microorganisms in Tucson agricultural history</em>. ENVISION, University of Arizona (2021)</li>
+</ul>
+<p><strong>Posters</strong></p>
+<ul>
+<li><em>Bacteriophage survival in the bee microbial gut along a passage experiment</em>. ASM BIG, Washington DC (2026)</li>
+<li><em>Foundations for change: urban soil bacterial and viral exploration as a platform for education and women’s computational training</em>. Envisioning Urban Futures, NC State (2026)</li>
+<li><em>Soil viral response to drought disturbance and ecosystem recovery in an artificial rainforest</em>. International Soil Virus Conference, Lawrence Livermore National Laboratory (2024)</li>
+<li><em>Urbanization causes major changes in the functional profile of arid soil metagenomes</em>. ISME18, Lausanne (2022) and ENVISION (2023)</li>
+<li><em>Network construction and analysis from microbial community meta-omics data</em>. ISME17, Leipzig (2018)</li>
+</ul>
+</section>
+<section id="awards-and-fellowships" class="level2">
+<h2 class="anchored" data-anchor-id="awards-and-fellowships">Awards and fellowships</h2>
+<ul>
+<li><strong>Travel Grant</strong>, Department of Environmental Science, University of Arizona (2024)</li>
+<li><strong>Summer Research Fellowship</strong> for a research stay at the University of Helsinki, Finland (2023)</li>
+<li><strong>Impact Leader Fellowship</strong>, Bayer Crop Science and the CALS Career Center (2023)</li>
+<li><strong>Carson Scholars Fellowship</strong> in science communication, AIRES, University of Arizona (2022–2023)</li>
+<li><strong>Complex Systems Summer School</strong>, Santa Fe Institute (2022)</li>
+<li><strong>GPSC Travel Grant</strong>, University of Arizona (2022)</li>
+<li><strong>Roots for Resilience Fellowship</strong> in open science, University of Arizona (2021)</li>
+</ul>
+</section>
+<section id="community-and-outreach" class="level2">
+<h2 class="anchored" data-anchor-id="community-and-outreach">Community and outreach</h2>
+<ul>
+<li><strong>Living Streets Alliance</strong>, Tucson (2022–2025): led the data gathering, analysis and visualization teams for the Cyclovia open-streets event</li>
+<li><strong>Mission Garden</strong>, Tucson (2020–2021): event docent on agricultural history and local flora, and garden volunteer</li>
+<li><strong>Department of Environmental Science</strong>, University of Arizona (2021–2022): invasive grass removal at Saguaro National Park and cleanups at Arroyo Chico Wash</li>
+<li><strong>ResBazz 2021</strong>, University of Arizona: event support and co-led data science literacy workshops</li>
+<li><strong>Community Food Bank</strong>, Tucson (2020): food distribution</li>
+<li>Student representative, CALS Graduate and Professional Student Council (2021–2023)</li>
+</ul>
+</section>
+<section id="skills" class="level2">
+<h2 class="anchored" data-anchor-id="skills">Skills</h2>
+<div class="skills">
+<p><strong>Computational:</strong> Python, R, Bash · Nextflow, Snakemake · HPC (SLURM, LSF, PBS), GNU Parallel, Chapel · Git, GitHub Actions · Java, JavaScript, Shiny</p>
+<p><strong>Bioinformatics:</strong> NGS cleaning, assembly and annotation · metagenomics, metatranscriptomics, metabolomics · viral and mobile genetic element inference · amplicon sequencing · functional and taxonomic annotation · microbial ecology and network analysis</p>
+<p><strong>Data science:</strong> supervised and unsupervised ML · data visualization · data mining and curation · FAIR data</p>
+<p><strong>Lab and field:</strong> soil sampling, DNA extraction, PCR, microbial culture · soil and water physicochemical analysis</p>
+<p><strong>Tools:</strong> Quarto, R Markdown, LaTeX · Adobe Illustrator, Canva, BioRender · RStudio, Jupyter, VS Code</p>
+<p><strong>Languages:</strong> Spanish and Galician (native) · English (fluent) · Catalan and Portuguese (conversational)</p>
+</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

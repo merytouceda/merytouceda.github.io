@@ -15,4 +15,8 @@ about:
       href: https://scholar.google.com/citations?user=0Y3imusAAAAJ&hl=en
 ---
 
-Welcome to my site!
+I'm a **postdoctoral researcher** at the Bioinformatics Research Center, North Carolina State University. I study viruses, bacteria and plasmids in environmental microbial communities, using metagenomics to understand how microbes respond to a changing climate.
+
+I build reproducible bioinformatics pipelines and teach others to do the same as a **Nextflow Ambassador**.
+
+[More about me](about.qmd){.btn .btn-primary .me-2} [Publications](publications.qmd){.btn .btn-outline-primary .me-2} [CV](files/Touceda-Suarez_CV.pdf){.btn .btn-outline-primary target="_blank"}

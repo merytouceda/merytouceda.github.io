@@ -103,3 +103,52 @@ main h2 { border-bottom: none; }
   border: 1px solid var(--section-accent);
   vertical-align: middle;
 }
+
+/* About page: research interest cards */
+.interest {
+  background: var(--site-teal-tint);
+  border-top: 4px solid var(--site-teal);
+  border-radius: 8px;
+  padding: 1rem 1.1rem 0.5rem;
+}
+.interest.coral { background: var(--site-coral-tint); border-top-color: var(--site-coral); }
+.interest.plum { background: var(--site-card-bg); border-top-color: var(--site-plum); box-shadow: 0 2px 10px rgba(31, 42, 68, 0.08); }
+.interest h3 { font-size: 1.1rem; margin-top: 0; }
+
+/* About page: CV timeline */
+.cv-item {
+  position: relative;
+  padding-left: 1.4rem;
+  border-left: 2px solid var(--site-teal-tint);
+  margin-left: 0.4rem;
+  padding-bottom: 0.75rem;
+}
+.cv-item::before {
+  content: "";
+  position: absolute;
+  left: -7px;
+  top: 0.35rem;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--site-coral);
+}
+.cv-item p { margin-bottom: 0.35rem; }
+.cv-item ul { margin-bottom: 0.5rem; }
+.cv-date {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--site-teal);
+}
+
+.award {
+  display: inline-block;
+  font-size: 0.75rem;
+  padding: 0.05rem 0.5rem;
+  border-radius: 999px;
+  background: var(--site-coral-tint);
+  color: var(--site-ink);
+}
+.skills p { margin-bottom: 0.6rem; }

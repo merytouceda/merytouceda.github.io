@@ -9,16 +9,72 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "About me",
     "section": "",
-    "text": "About this site"
+    "text": "I’m a postdoctoral researcher at the Bioinformatics Research Center at North Carolina State University, where I study viral, bacterial and plasmid communities in environmental metagenomes. I’m interested in how microbes adapt to a changing climate, and in finding solutions that improve outcomes for people and the planet.\nI care about open science, reproducibility and FAIR data: good science should be usable and verifiable by others, not just publishable. As a Nextflow Ambassador (2026), I lead workshops and write training materials that take graduate students and professionals from zero to running their own pipelines.\nDownload my CV"
+  },
+  {
+    "objectID": "about.html#research-interests",
+    "href": "about.html#research-interests",
+    "title": "About me",
+    "section": "Research interests",
+    "text": "Research interests\n\n\nViruses and plasmids in the environment\nViral and mobile genetic element discovery in soil, wastewater and gut metagenomes, and what these elements tell us about how microbial communities respond to disturbance.\n\n\nReproducible, benchmarked pipelines\nNextflow pipelines that benchmark machine-learning viral inference tools against simulated communities with known ground truth, to find out where they fail.\n\n\nOpen science and training\nBioinformatics curricula, from HPC and Bash to metagenomics and Nextflow, built to make computational biology accessible to non-specialists."
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "About me",
+    "section": "Experience",
+    "text": "Experience\n\nSep 2025 – present\nPostdoctoral Researcher · Bioinformatics Research Center, NC State University · Raleigh, NC\n\nBuilding a reproducible Nextflow pipeline to benchmark ML-based viral inference tools (geNomad, VirSorter2, DeepVirFinder) against simulated communities\nDesigning lab-wide computational infrastructure, including Nextflow pipeline logic and a structured data lake for multi-omics workflows\nLeading viral and plasmid analysis of European wastewater samples, and of the bee gut microbiome in a passage experiment on microbial drift\nDeveloping and teaching bioinformatics curricula (HPC, Unix/Bash, metagenomics, RNA-Seq, Nextflow) at NC State and University College Dublin\nDeploying nf-core pipelines as self-service Open OnDemand apps on the institutional HPC via nf2ood\n\n\n\nJan 2020 – May 2025\nGraduate Assistant · Barberán Lab, University of Arizona · Tucson, AZ\n\nLed viral and plasmid metagenomic analysis of soil samples on university HPC\nDesigned bioinformatics pipelines for soil and environmental metagenomics\nLed field soil sampling and DNA extraction for viral and microbial community studies\nInstructor of record and teaching assistant for undergraduate data analysis and environmental science courses\n\n\n\nFeb 2019 – May 2019\nJunior Programmer · Sopra Steria · Madrid, Spain\n\nBack-end application programming\n\n\n\nJun 2017 – Mar 2018\nGraduate Assistant · Technical University of Denmark (DTU) · Copenhagen, Denmark\n\nCurated microbial tool metadata for ELIXIR bio.tools, and supported nitritation-anammox wastewater bioreactor research at DTU Environment"
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About me",
+    "section": "Education",
+    "text": "Education\n\n2020 – 2025\nPhD in Environmental Science · University of Arizona\nDissertation: Harnessing metagenomics to unveil the underrepresented fraction of the soil microbiome. Advisor: Dr. Albert Barberán.\n\n\n2018\nMSc in Bioinformatics · University of Copenhagen\nThesis at DTU Environment: Network construction and analysis from microbial community meta-omics data. Advisor: Dr. Barth F. Smets.\n\n\n2016\nBSc in Human Biology · Pompeu Fabra University, Barcelona\nThesis at the Centre for Genomic Regulation (CRG), Systems Biology. Advisor: Dr. Manuel Irimia."
+  },
+  {
+    "objectID": "about.html#teaching-and-workshops",
+    "href": "about.html#teaching-and-workshops",
+    "title": "About me",
+    "section": "Teaching and workshops",
+    "text": "Teaching and workshops\nWorkshops I’ve led\n\nBRC Nextflow Workshop, NC State University (Oct 2026)\nOmics with R, NC State University (Aug 2026)\nMetagenomics for Veterinary Science, University College Dublin, Ireland (Jun 2026)\nIntroduction to Hazel HPC, NC State University (Sep 2025 – May 2026, plus a week-long intensive in May 2026)\nSoil Microorganisms and Their Role in Soil Health, Mission Garden, Tucson (Oct 2024)\nComplex Systems Science: a two-day workshop on complexity science and network analysis, University of Arizona (2023)\n\nCourses\n\nInvited lecturer, GN 427 Introductory Bioinformatics, NC State (Fall 2026)\nInstructor of record, ENVS 275 Data Analysis for Life and Environmental Sciences, University of Arizona (Fall 2023)\nTeaching assistant, ENVS 275 (Fall 2021, Fall 2022) and ENVS 107 Introduction to Environmental Science (Spring 2022)\n\nMentoring\nI currently mentor four PhD students at NC State. At the University of Arizona I mentored master’s, accelerated master’s and undergraduate honors projects, and Carson Scholars (2023–2024)."
+  },
+  {
+    "objectID": "about.html#talks-and-presentations",
+    "href": "about.html#talks-and-presentations",
+    "title": "About me",
+    "section": "Talks and presentations",
+    "text": "Talks and presentations\nOral presentations\n\nDifferences in the genetic potential of soil microbial communities of urban greenspaces vs. natural arid soils. ENVISION, University of Arizona (2024). Honorable mention\nSoil health: microorganisms in Mission Garden soil. Mission Garden lecture series, Tucson (2024)\nEffects of historical agricultural crops on the soil microbiome of a living agricultural museum in the Sonoran Desert. ENVISION, University of Arizona (2022)\nEffect of land use in arid soil microbial communities. Women in Data Science, Tucson (2021). Data BLITZ winner\nSoil microorganisms in Tucson agricultural history. ENVISION, University of Arizona (2021)\n\nPosters\n\nBacteriophage survival in the bee microbial gut along a passage experiment. ASM BIG, Washington DC (2026)\nFoundations for change: urban soil bacterial and viral exploration as a platform for education and women’s computational training. Envisioning Urban Futures, NC State (2026)\nSoil viral response to drought disturbance and ecosystem recovery in an artificial rainforest. International Soil Virus Conference, Lawrence Livermore National Laboratory (2024)\nUrbanization causes major changes in the functional profile of arid soil metagenomes. ISME18, Lausanne (2022) and ENVISION (2023)\nNetwork construction and analysis from microbial community meta-omics data. ISME17, Leipzig (2018)"
+  },
+  {
+    "objectID": "about.html#awards-and-fellowships",
+    "href": "about.html#awards-and-fellowships",
+    "title": "About me",
+    "section": "Awards and fellowships",
+    "text": "Awards and fellowships\n\nTravel Grant, Department of Environmental Science, University of Arizona (2024)\nSummer Research Fellowship for a research stay at the University of Helsinki, Finland (2023)\nImpact Leader Fellowship, Bayer Crop Science and the CALS Career Center (2023)\nCarson Scholars Fellowship in science communication, AIRES, University of Arizona (2022–2023)\nComplex Systems Summer School, Santa Fe Institute (2022)\nGPSC Travel Grant, University of Arizona (2022)\nRoots for Resilience Fellowship in open science, University of Arizona (2021)"
+  },
+  {
+    "objectID": "about.html#community-and-outreach",
+    "href": "about.html#community-and-outreach",
+    "title": "About me",
+    "section": "Community and outreach",
+    "text": "Community and outreach\n\nLiving Streets Alliance, Tucson (2022–2025): led the data gathering, analysis and visualization teams for the Cyclovia open-streets event\nMission Garden, Tucson (2020–2021): event docent on agricultural history and local flora, and garden volunteer\nDepartment of Environmental Science, University of Arizona (2021–2022): invasive grass removal at Saguaro National Park and cleanups at Arroyo Chico Wash\nResBazz 2021, University of Arizona: event support and co-led data science literacy workshops\nCommunity Food Bank, Tucson (2020): food distribution\nStudent representative, CALS Graduate and Professional Student Council (2021–2023)"
+  },
+  {
+    "objectID": "about.html#skills",
+    "href": "about.html#skills",
+    "title": "About me",
+    "section": "Skills",
+    "text": "Skills\n\nComputational: Python, R, Bash · Nextflow, Snakemake · HPC (SLURM, LSF, PBS), GNU Parallel, Chapel · Git, GitHub Actions · Java, JavaScript, Shiny\nBioinformatics: NGS cleaning, assembly and annotation · metagenomics, metatranscriptomics, metabolomics · viral and mobile genetic element inference · amplicon sequencing · functional and taxonomic annotation · microbial ecology and network analysis\nData science: supervised and unsupervised ML · data visualization · data mining and curation · FAIR data\nLab and field: soil sampling, DNA extraction, PCR, microbial culture · soil and water physicochemical analysis\nTools: Quarto, R Markdown, LaTeX · Adobe Illustrator, Canva, BioRender · RStudio, Jupyter, VS Code\nLanguages: Spanish and Galician (native) · English (fluent) · Catalan and Portuguese (conversational)"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Mery Touceda-Suárez",
     "section": "",
-    "text": "Welcome to my site!"
+    "text": "I’m a postdoctoral researcher at the Bioinformatics Research Center, North Carolina State University. I study viruses, bacteria and plasmids in environmental microbial communities, using metagenomics to understand how microbes respond to a changing climate.\nI build reproducible bioinformatics pipelines and teach others to do the same as a Nextflow Ambassador.\nMore about me Publications CV"
   },
   {
     "objectID": "posts/hello-world/index.html",
@@ -47,13 +103,6 @@
     "title": "Publications",
     "section": "",
     "text": "For an up-to-date list, see my Google Scholar profile. Bold marks my name."
-  },
-  {
-    "objectID": "art.html",
-    "href": "art.html",
-    "title": "Art",
-    "section": "",
-    "text": "Placeholder piece\n\n\nWatercolor, 30 × 40 cm. Replace this with a real piece.\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "publications.html#section",
@@ -96,5 +145,12 @@
     "title": "Publications",
     "section": "2020",
     "text": "2020\n\nAncient Genomic Regulatory Blocks Are a Source for Regulatory Gene Deserts in Vertebrates after Whole-Genome Duplications\nM. Touceda-Suárez, E.M. Kita, R.D. Acemel, P.N. Firbas, M.S. Magri, S. Naranjo, J.J. Tena, J.L. Gómez-Skarmeta, I. Maeso, M. Irimia\nMolecular Biology and Evolution. DOI"
+  },
+  {
+    "objectID": "art.html",
+    "href": "art.html",
+    "title": "Art",
+    "section": "",
+    "text": "Placeholder piece\n\n\nWatercolor, 30 × 40 cm. Replace this with a real piece.\n\n\n\n\n\nNo matching items"
   }
 ]
