@@ -2,6 +2,85 @@
 title: "Publications"
 body-classes: section-publications
 toc: true
+toc-title: "By year"
 ---
 
-List of publications
+For an up-to-date list, see my [Google Scholar profile](https://scholar.google.com/citations?user=0Y3imusAAAAJ&hl=en). **Bold** marks my name.
+
+## 2026
+
+::: {.pub}
+**Urban greenspaces harbour distinct plasmid communities enriched in heavy metal resistance and competitive traits in arid soils**  
+**M. Touceda-Suárez**, A.J. Ponsero, A. Barberán  
+*Microbiology*. [DOI](https://doi.org/10.1099/mic.0.001705)
+:::
+
+::: {.pub}
+**Soil viral response to drought disturbance and ecosystem recovery in an artificial rainforest** [Preprint]{.pub-tag}  
+**M. Touceda-Suárez**, A.J. Ponsero, L.K. Hernandez, J. Gil-Loaiza, J. Fudyma, M. Clark, et al.  
+*bioRxiv* (preprint). [DOI](https://doi.org/10.64898/2026.09.28.755132)
+:::
+
+## 2025
+
+::: {.pub}
+**Effects of grazing exclusion and pasture management on soil microbial communities in Californian irrigated pastures**  
+M.L. Morris, D.J. Eastburn, L.M. Roche, J. Davy, M. Doran, B. Karle, …, **M. Touceda-Suárez**, et al.  
+*Applied Soil Ecology*. [DOI](https://doi.org/10.1016/j.apsoil.2025.106419)
+:::
+
+::: {.pub}
+**Above and belowground effects of buffelgrass invasion in the Sonoran Desert**  
+G. Iñigo-Gámiz, **M. Touceda-Suárez**, E. Bustamante, E.S. Gornish, A. Martínez-Yrízar, A. Búrquez, A. Barberán  
+*Biological Invasions*. [DOI](https://doi.org/10.1007/s10530-025-03650-0)
+:::
+
+::: {.pub}
+**Differences in the genomic potential of soil bacterial and viral communities between urban greenspaces and natural arid soils**  
+**M. Touceda-Suárez**, A.J. Ponsero, A. Barberán  
+*Applied and Environmental Microbiology*. [DOI](https://doi.org/10.1128/aem.02124-24)
+:::
+
+::: {.pub}
+**Meeting report: International soil virus conference 2024**  
+**M. Touceda-Suárez**, M.A. Perry, R. Frizzo, J.H. Lotz-McMillen, R.A. Gilmore, S.M. Bennett, et al.  
+*Virus Research*. [DOI](https://doi.org/10.1016/j.virusres.2025.199544)
+:::
+
+::: {.pub}
+**Harnessing Metagenomics to Unveil the Underrepresented Fraction of the Soil Microbiome** [Dissertation]{.pub-tag}  
+**M. Touceda-Suárez**  
+PhD dissertation, The University of Arizona.
+:::
+
+## 2024
+
+::: {.pub}
+**Harnessing Bacillus amyloliquefaciens for Amazake Production: Comparison with Aspergillus oryzae Amazake for Metabolomic Characteristics, Microbial Diversity, and Sensory Profile**  
+A. Touceda-Suárez, **M. Touceda-Suárez**, J.C. Arboleya, P.M. Sörensen  
+*Foods*. [DOI](https://doi.org/10.3390/foods13132012)
+:::
+
+## 2023
+
+::: {.pub}
+**Effects of historical agricultural crops on the soil microbiome of a living agricultural museum in the Sonoran Desert**  
+**M. Touceda-Suárez**, D. Cowan, E. Rockey, A. Barberán  
+*Agronomy Journal*. [DOI](https://doi.org/10.1002/agj2.21456)
+:::
+
+## 2022
+
+::: {.pub}
+**Efficient management of the nitritation-anammox microbiome through intermittent aeration: absence of the NOB guild and expansion and diversity of the NOx reducing guild suggests a highly reticulated nitrogen cycle**  
+A. Palomo, D. Azevedo, **M. Touceda-Suárez**, C. Domingo-Félez, A.G. Mutlu, A. Dechesne, Y. Wang, T. Zhang, B.F. Smets  
+*Environmental Microbiome*. [DOI](https://doi.org/10.1186/s40793-022-00432-2)
+:::
+
+## 2020
+
+::: {.pub}
+**Ancient Genomic Regulatory Blocks Are a Source for Regulatory Gene Deserts in Vertebrates after Whole-Genome Duplications**  
+**M. Touceda-Suárez**, E.M. Kita, R.D. Acemel, P.N. Firbas, M.S. Magri, S. Naranjo, J.J. Tena, J.L. Gómez-Skarmeta, I. Maeso, M. Irimia  
+*Molecular Biology and Evolution*. [DOI](https://doi.org/10.1093/molbev/msaa123)
+:::

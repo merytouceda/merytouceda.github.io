@@ -6,40 +6,40 @@ $font-family-sans-serif: "Inter", system-ui, -apple-system, "Segoe UI", sans-ser
 $headings-font-family: "Outfit", "Inter", sans-serif;
 $headings-font-weight: 600;
 
-// Palette (brighter accents for a dark background)
-$ink:      #111A2E;
-$text:     #EEF2F8;
-$teal:     #6FA3E6;
-$coral:    #F7A55E;
-$saffron:  #F5CF6E;
-$plum:     #E57A8A;
-$teal-tint:  #1E3050;
-$coral-tint: #3D2A1C;
+// Palette: Jewel tones (other palettes saved in palettes/)
+$ink:      #1B1B3A;
+$teal:     #3D3B8E;
+$coral:    #E0A030;
+$saffron:  #B8336A;
+$plum:     #2A9D8F;
+$paper:    #FAF9F6;
+$teal-tint:  #E6E5F4;
+$coral-tint: #FBEFD9;
 
 // Bootstrap / Quarto variables
-$body-bg: $ink;
-$body-color: $text;
+$body-bg: $paper;
+$body-color: $ink;
 $primary: $teal;
 $secondary: $plum;
 $link-color: $teal;
 $link-hover-color: $coral;
 
-$navbar-bg: #0B1222;
-$navbar-fg: $text;
-$navbar-hl: $saffron;
+$navbar-bg: #2E2C70;
+$navbar-fg: #FAF9F6;
+$navbar-hl: $coral;
 
-$footer-bg: $ink;
-$footer-fg: $text;
+$footer-bg: $paper;
+$footer-fg: $ink;
 
 /*-- scss:rules --*/
 
 :root {
-  --site-ink: #{$text};
+  --site-ink: #{$ink};
   --site-teal: #{$teal};
   --site-coral: #{$coral};
   --site-saffron: #{$saffron};
   --site-plum: #{$plum};
   --site-teal-tint: #{$teal-tint};
   --site-coral-tint: #{$coral-tint};
-  --site-card-bg: #18233B;
+  --site-card-bg: #FFFFFF;
 }

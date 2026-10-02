@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-0725b1848823ebc266da6958a4e67caa.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-0d580f70722747eaeab897b3d20173be.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-0725b1848823ebc266da6958a4e67caa.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-4550219262ddeea725883fe6a3db2699.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-f5818300de34a70ac54b9987f2617eba.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-4550219262ddeea725883fe6a3db2699.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -220,7 +220,8 @@ ul.task-list li input[type="checkbox"] {
       }
     };
     const authorPrefersDark = false;
-    const darkModeDefault = authorPrefersDark;
+    const queryPrefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+    const darkModeDefault = queryPrefersDark.matches;
       document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
       document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
     let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
@@ -233,6 +234,14 @@ ul.task-list li input[type="checkbox"] {
       toggleGiscusIfUsed(toAlternate, darkModeDefault);
       window.dispatchEvent(new Event('resize'));
     };
+    queryPrefersDark.addEventListener("change", e => {
+      if(window.localStorage.getItem("quarto-color-scheme") !== null)
+        return;
+      const alternate = e.matches
+      toggleColorMode(alternate);
+      localAlternateSentinel = e.matches ? 'alternate' : 'default'; // this is used alongside local storage!
+      toggleGiscusIfUsed(alternate, darkModeDefault);
+    });
     // Switch to dark mode if need be
     if (hasAlternateSentinel()) {
       toggleColorMode(true);
@@ -297,8 +306,19 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">By year</h2>
+   
+  <ul>
+  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section">2026</a></li>
+  <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1">2025</a></li>
+  <li><a href="#section-2" id="toc-section-2" class="nav-link" data-scroll-target="#section-2">2024</a></li>
+  <li><a href="#section-3" id="toc-section-3" class="nav-link" data-scroll-target="#section-3">2023</a></li>
+  <li><a href="#section-4" id="toc-section-4" class="nav-link" data-scroll-target="#section-4">2022</a></li>
+  <li><a href="#section-5" id="toc-section-5" class="nav-link" data-scroll-target="#section-5">2020</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -323,9 +343,82 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>List of publications</p>
+<p>For an up-to-date list, see my <a href="https://scholar.google.com/citations?user=0Y3imusAAAAJ&amp;hl=en">Google Scholar profile</a>. <strong>Bold</strong> marks my name.</p>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section">2026</h2>
+<div class="pub">
+<p><strong>Urban greenspaces harbour distinct plasmid communities enriched in heavy metal resistance and competitive traits in arid soils</strong><br>
+<strong>M. Touceda-Suárez</strong>, A.J. Ponsero, A. Barberán<br>
+<em>Microbiology</em>. <a href="https://doi.org/10.1099/mic.0.001705">DOI</a></p>
+</div>
+<div class="pub">
+<p><strong>Soil viral response to drought disturbance and ecosystem recovery in an artificial rainforest</strong> <span class="pub-tag">Preprint</span><br>
+<strong>M. Touceda-Suárez</strong>, A.J. Ponsero, L.K. Hernandez, J. Gil-Loaiza, J. Fudyma, M. Clark, et al.<br>
+<em>bioRxiv</em> (preprint). <a href="https://doi.org/10.64898/2026.09.28.755132">DOI</a></p>
+</div>
+</section>
+<section id="section-1" class="level2">
+<h2 class="anchored" data-anchor-id="section-1">2025</h2>
+<div class="pub">
+<p><strong>Effects of grazing exclusion and pasture management on soil microbial communities in Californian irrigated pastures</strong><br>
+M.L. Morris, D.J. Eastburn, L.M. Roche, J. Davy, M. Doran, B. Karle, …, <strong>M. Touceda-Suárez</strong>, et al.<br>
+<em>Applied Soil Ecology</em>. <a href="https://doi.org/10.1016/j.apsoil.2025.106419">DOI</a></p>
+</div>
+<div class="pub">
+<p><strong>Above and belowground effects of buffelgrass invasion in the Sonoran Desert</strong><br>
+G. Iñigo-Gámiz, <strong>M. Touceda-Suárez</strong>, E. Bustamante, E.S. Gornish, A. Martínez-Yrízar, A. Búrquez, A. Barberán<br>
+<em>Biological Invasions</em>. <a href="https://doi.org/10.1007/s10530-025-03650-0">DOI</a></p>
+</div>
+<div class="pub">
+<p><strong>Differences in the genomic potential of soil bacterial and viral communities between urban greenspaces and natural arid soils</strong><br>
+<strong>M. Touceda-Suárez</strong>, A.J. Ponsero, A. Barberán<br>
+<em>Applied and Environmental Microbiology</em>. <a href="https://doi.org/10.1128/aem.02124-24">DOI</a></p>
+</div>
+<div class="pub">
+<p><strong>Meeting report: International soil virus conference 2024</strong><br>
+<strong>M. Touceda-Suárez</strong>, M.A.&nbsp;Perry, R. Frizzo, J.H. Lotz-McMillen, R.A. Gilmore, S.M. Bennett, et al.<br>
+<em>Virus Research</em>. <a href="https://doi.org/10.1016/j.virusres.2025.199544">DOI</a></p>
+</div>
+<div class="pub">
+<p><strong>Harnessing Metagenomics to Unveil the Underrepresented Fraction of the Soil Microbiome</strong> <span class="pub-tag">Dissertation</span><br>
+<strong>M. Touceda-Suárez</strong><br>
+PhD dissertation, The University of Arizona.</p>
+</div>
+</section>
+<section id="section-2" class="level2">
+<h2 class="anchored" data-anchor-id="section-2">2024</h2>
+<div class="pub">
+<p><strong>Harnessing Bacillus amyloliquefaciens for Amazake Production: Comparison with Aspergillus oryzae Amazake for Metabolomic Characteristics, Microbial Diversity, and Sensory Profile</strong><br>
+A. Touceda-Suárez, <strong>M. Touceda-Suárez</strong>, J.C. Arboleya, P.M. Sörensen<br>
+<em>Foods</em>. <a href="https://doi.org/10.3390/foods13132012">DOI</a></p>
+</div>
+</section>
+<section id="section-3" class="level2">
+<h2 class="anchored" data-anchor-id="section-3">2023</h2>
+<div class="pub">
+<p><strong>Effects of historical agricultural crops on the soil microbiome of a living agricultural museum in the Sonoran Desert</strong><br>
+<strong>M. Touceda-Suárez</strong>, D. Cowan, E. Rockey, A. Barberán<br>
+<em>Agronomy Journal</em>. <a href="https://doi.org/10.1002/agj2.21456">DOI</a></p>
+</div>
+</section>
+<section id="section-4" class="level2">
+<h2 class="anchored" data-anchor-id="section-4">2022</h2>
+<div class="pub">
+<p><strong>Efficient management of the nitritation-anammox microbiome through intermittent aeration: absence of the NOB guild and expansion and diversity of the NOx reducing guild suggests a highly reticulated nitrogen cycle</strong><br>
+A. Palomo, D. Azevedo, <strong>M. Touceda-Suárez</strong>, C. Domingo-Félez, A.G. Mutlu, A. Dechesne, Y. Wang, T. Zhang, B.F. Smets<br>
+<em>Environmental Microbiome</em>. <a href="https://doi.org/10.1186/s40793-022-00432-2">DOI</a></p>
+</div>
+</section>
+<section id="section-5" class="level2">
+<h2 class="anchored" data-anchor-id="section-5">2020</h2>
+<div class="pub">
+<p><strong>Ancient Genomic Regulatory Blocks Are a Source for Regulatory Gene Deserts in Vertebrates after Whole-Genome Duplications</strong><br>
+<strong>M. Touceda-Suárez</strong>, E.M. Kita, R.D. Acemel, P.N. Firbas, M.S. Magri, S. Naranjo, J.J. Tena, J.L. Gómez-Skarmeta, I. Maeso, M. Irimia<br>
+<em>Molecular Biology and Evolution</em>. <a href="https://doi.org/10.1093/molbev/msaa123">DOI</a></p>
+</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

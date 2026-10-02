@@ -7,14 +7,14 @@ $headings-font-family: "Outfit", "Inter", sans-serif;
 $headings-font-weight: 600;
 
 // Palette (brighter accents for a dark background)
-$ink:      #111A2E;
-$text:     #EEF2F8;
-$teal:     #6FA3E6;
-$coral:    #F7A55E;
-$saffron:  #F5CF6E;
-$plum:     #E57A8A;
-$teal-tint:  #1E3050;
-$coral-tint: #3D2A1C;
+$ink:      #15152B;
+$text:     #ECEAF5;
+$teal:     #9A97E8;
+$coral:    #F0BA5A;
+$saffron:  #E06C9A;
+$plum:     #4CC4B4;
+$teal-tint:  #26254A;
+$coral-tint: #3A3020;
 
 // Bootstrap / Quarto variables
 $body-bg: $ink;
@@ -24,9 +24,9 @@ $secondary: $plum;
 $link-color: $teal;
 $link-hover-color: $coral;
 
-$navbar-bg: #0B1222;
+$navbar-bg: #0E0E20;
 $navbar-fg: $text;
-$navbar-hl: $saffron;
+$navbar-hl: $coral;
 
 $footer-bg: $ink;
 $footer-fg: $text;
@@ -41,5 +41,5 @@ $footer-fg: $text;
   --site-plum: #{$plum};
   --site-teal-tint: #{$teal-tint};
   --site-coral-tint: #{$coral-tint};
-  --site-card-bg: #18233B;
+  --site-card-bg: #1F1F3A;
 }

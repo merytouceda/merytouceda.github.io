@@ -84,3 +84,22 @@ main h2 { border-bottom: none; }
 }
 
 .band > :last-child { margin-bottom: 0; }
+
+/* Publications list */
+.pub {
+  padding: 0.75rem 0 0.75rem 1rem;
+  border-left: 3px solid var(--section-accent);
+  margin: 0 0 1rem 0;
+}
+.pub p { margin-bottom: 0; }
+.pub-tag {
+  display: inline-block;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.05rem 0.5rem;
+  margin-left: 0.4rem;
+  border-radius: 999px;
+  border: 1px solid var(--section-accent);
+  vertical-align: middle;
+}
