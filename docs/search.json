@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "writing.html",
+    "href": "writing.html",
+    "title": "Writing",
+    "section": "",
+    "text": "Hello, world\n\n\n\npersonal\n\n\n\nA first placeholder post. Replace with something you wrote.\n\n\n\n\n\nOct 2, 2026\n\n1 min\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -14,10 +21,38 @@
     "text": "Welcome to my site!"
   },
   {
+    "objectID": "posts/hello-world/index.html",
+    "href": "posts/hello-world/index.html",
+    "title": "Hello, world",
+    "section": "",
+    "text": "This is a placeholder post. Write in Markdown, and add R or Python code chunks if you like."
+  },
+  {
+    "objectID": "posts/hello-world/index.html#a-section-heading",
+    "href": "posts/hello-world/index.html#a-section-heading",
+    "title": "Hello, world",
+    "section": "A section heading",
+    "text": "A section heading\n\nA tinted callout band, using ::: {.band}. Add .coral for the coral version."
+  },
+  {
+    "objectID": "art/placeholder-piece/index.html",
+    "href": "art/placeholder-piece/index.html",
+    "title": "Placeholder piece",
+    "section": "",
+    "text": "A few words about this piece: what inspired it, materials, process."
+  },
+  {
     "objectID": "publications.html",
     "href": "publications.html",
     "title": "Publications",
     "section": "",
     "text": "List of publications"
+  },
+  {
+    "objectID": "art.html",
+    "href": "art.html",
+    "title": "Art",
+    "section": "",
+    "text": "Placeholder piece\n\n\nWatercolor, 30 × 40 cm. Replace this with a real piece.\n\n\n\n\n\nNo matching items"
   }
 ]

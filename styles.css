@@ -1,1 +1,86 @@
 /* css styles */
+
+/* Each section gets its own accent color, set with `body-classes` in a page's front matter */
+body { --section-accent: var(--site-teal); }
+body.section-art { --section-accent: var(--site-coral); }
+body.section-writing { --section-accent: var(--site-saffron); }
+body.section-publications { --section-accent: var(--site-plum); }
+
+/* Accent underline on page titles and section headings */
+.quarto-title h1.title,
+main h2 {
+  position: relative;
+  padding-bottom: 0.35rem;
+}
+.quarto-title h1.title::after,
+main h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 3rem;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--section-accent);
+}
+main h2 { border-bottom: none; }
+
+/* Home page profile links */
+.quarto-about-jolla .about-links .about-link {
+  border-color: var(--site-teal);
+  color: var(--site-teal);
+}
+.quarto-about-jolla .about-links .about-link:hover {
+  background: var(--site-coral);
+  border-color: var(--site-coral);
+  color: #fff;
+}
+
+/* Tinted band for highlighting a block of content: ::: {.band} ... ::: */
+.band {
+  background: var(--site-teal-tint);
+  border-left: 5px solid var(--site-teal);
+  border-radius: 6px;
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+}
+.band.coral {
+  background: var(--site-coral-tint);
+  border-left-color: var(--site-coral);
+}
+
+/* Listing cards (Art and Writing) */
+.quarto-grid-item.card {
+  background: var(--site-card-bg);
+  border: none;
+  border-top: 4px solid var(--section-accent);
+  box-shadow: 0 2px 10px rgba(31, 42, 68, 0.08);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.quarto-grid-item.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 22px rgba(31, 42, 68, 0.15);
+}
+
+/* Category pills */
+.quarto-category,
+.listing-category {
+  border-color: var(--section-accent) !important;
+  color: var(--site-ink) !important;
+  border-radius: 999px !important;
+}
+
+/* Center the title underline on the home page */
+.quarto-about-jolla .quarto-title h1.title::after,
+.quarto-about-jolla h1.title::after {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Site name in the navbar uses the heading font */
+.navbar-brand .navbar-title {
+  font-family: "Outfit", "Inter", sans-serif;
+  font-weight: 600;
+}
+
+.band > :last-child { margin-bottom: 0; }

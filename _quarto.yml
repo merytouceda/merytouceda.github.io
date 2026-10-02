@@ -13,8 +13,18 @@ website:
         text: About me
       - href: publications.qmd
         text: Publications
+      - href: art.qmd
+        text: Art
+      - href: writing.qmd
+        text: Writing
+    right:
+      - icon: rss
+        href: writing.xml
 
 format:
   html:
-    theme: cosmo
+    theme:
+      light: [cosmo, theme-light.scss]
+      dark: [cosmo, theme-dark.scss]
     css: styles.css
+    lightbox: true

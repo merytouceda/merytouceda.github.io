@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Mery Touceda-Suárez</title>
+<link>https://merytouceda.github.io/writing.html</link>
+<atom:link href="https://merytouceda.github.io/writing.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.8.24</generator>
+<lastBuildDate>Fri, 02 Oct 2026 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>Hello, world</title>
+  <link>https://merytouceda.github.io/posts/hello-world/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>This is a placeholder post. Write in Markdown, and add R or Python code chunks if you like.</p>
+<section id="a-section-heading" class="level2">
+<h2 class="anchored" data-anchor-id="a-section-heading">A section heading</h2>
+<div class="band">
+<p>A tinted callout band, using <code>::: {.band}</code>. Add <code>.coral</code> for the coral version.</p>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <category>personal</category>
+  <guid>https://merytouceda.github.io/posts/hello-world/</guid>
+  <pubDate>Fri, 02 Oct 2026 04:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

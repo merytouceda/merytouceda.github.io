@@ -1,0 +1,45 @@
+/*-- scss:defaults --*/
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap');
+$font-family-sans-serif: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+$headings-font-family: "Outfit", "Inter", sans-serif;
+$headings-font-weight: 600;
+
+// Palette
+$ink:      #1F2A44;
+$teal:     #1B7F79;
+$coral:    #E8735A;
+$saffron:  #E9B44C;
+$plum:     #7A4E7E;
+$paper:    #FBF8F3;
+$teal-tint:  #E3F1EF;
+$coral-tint: #FBE6E0;
+
+// Bootstrap / Quarto variables
+$body-bg: $paper;
+$body-color: $ink;
+$primary: $teal;
+$secondary: $plum;
+$link-color: $teal;
+$link-hover-color: $coral;
+
+$navbar-bg: $ink;
+$navbar-fg: #F4EFE6;
+$navbar-hl: $saffron;
+
+$footer-bg: $paper;
+$footer-fg: $ink;
+
+/*-- scss:rules --*/
+
+:root {
+  --site-ink: #{$ink};
+  --site-teal: #{$teal};
+  --site-coral: #{$coral};
+  --site-saffron: #{$saffron};
+  --site-plum: #{$plum};
+  --site-teal-tint: #{$teal-tint};
+  --site-coral-tint: #{$coral-tint};
+  --site-card-bg: #FFFFFF;
+}

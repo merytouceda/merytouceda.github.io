@@ -1,5 +1,6 @@
 ---
 title: "Publications"
+body-classes: section-publications
 toc: true
 ---
 

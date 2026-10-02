@@ -1,0 +1,14 @@
+---
+title: "Hello, world"
+date: 2026-10-02
+description: "A first placeholder post. Replace with something you wrote."
+categories: [personal]
+---
+
+This is a placeholder post. Write in Markdown, and add R or Python code chunks if you like.
+
+## A section heading
+
+::: {.band}
+A tinted callout band, using `::: {.band}`. Add `.coral` for the coral version.
+:::

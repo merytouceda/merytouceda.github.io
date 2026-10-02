@@ -1,0 +1,11 @@
+---
+title: "Placeholder piece"
+date: 2026-10-02
+description: "Watercolor, 30 × 40 cm. Replace this with a real piece."
+image: artwork.svg
+categories: [watercolor]
+---
+
+![](artwork.svg){.lightbox fig-alt="Overlapping teal, coral and saffron circles"}
+
+A few words about this piece: what inspired it, materials, process.

@@ -1,0 +1,12 @@
+---
+title: "Writing"
+body-classes: section-writing
+toc: false
+listing:
+  contents: posts
+  type: default
+  sort: "date desc"
+  categories: true
+  feed: true
+  fields: [date, title, description, categories, reading-time]
+---

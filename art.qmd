@@ -1,0 +1,13 @@
+---
+title: "Art"
+body-classes: section-art
+toc: false
+listing:
+  contents: art
+  type: grid
+  sort: "date desc"
+  categories: true
+  fields: [image, title, description]
+  grid-columns: 3
+  image-height: 260px
+---
