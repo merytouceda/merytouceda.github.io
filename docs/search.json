@@ -1,10 +1,10 @@
 [
   {
-    "objectID": "outreach/omics-with-r/index.html",
-    "href": "outreach/omics-with-r/index.html",
-    "title": "Omics with R",
+    "objectID": "writing.html",
+    "href": "writing.html",
+    "title": "Writing",
     "section": "",
-    "text": "An introduction to analyzing omics data in R."
+    "text": "A Microbial Ensemble\n\n\n\nessay\n\nsoil microbiome\n\n\n\nOn understanding the dynamics of soil microbiomes to make winter agriculture sustainable, and why a lasting relationship with our soils and their microbes matters.\n\n\n\n\n\nMay 21, 2024\n\n\nTerrain.org · Currents\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "outreach/soil-microorganisms-mission-garden/index.html",
@@ -14,25 +14,102 @@
     "text": "A community workshop on the microbes living in garden soil and why they matter for soil health."
   },
   {
+    "objectID": "outreach/nextflow-crash-course/index.html",
+    "href": "outreach/nextflow-crash-course/index.html",
+    "title": "Nextflow Crash Course",
+    "section": "",
+    "text": "A hands-on Nextflow DSL2 crash course for people who are comfortable on the command line but new to Nextflow. I co-developed and teach it with Seth Weaver at the Bioinformatics Research Center, as part of my Nextflow Ambassador (2026) program. The materials are self-paced, so anyone can work through them."
+  },
+  {
+    "objectID": "outreach/nextflow-crash-course/index.html#materials",
+    "href": "outreach/nextflow-crash-course/index.html#materials",
+    "title": "Nextflow Crash Course",
+    "section": "Materials",
+    "text": "Materials\n\nCourse website\nGitHub repository"
+  },
+  {
+    "objectID": "outreach/intro-hazel-hpc/index.html",
+    "href": "outreach/intro-hazel-hpc/index.html",
+    "title": "Introduction to Hazel HPC",
+    "section": "",
+    "text": "Getting started on NC State’s Hazel cluster, from the command line to job submission. Taught as a recurring series from September 2025 to May 2026, plus a week-long intensive in May 2026."
+  },
+  {
+    "objectID": "outreach.html",
+    "href": "outreach.html",
+    "title": "Outreach",
+    "section": "",
+    "text": "Workshops, courses and community events I’ve taught or organized. Each page has photos, a short description and links to the materials.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNextflow Crash Course\n\n\nBRC, NC State University, Raleigh, NC\n\n\nFrom ‘Hello Nextflow’ to your first pipeline: a hands-on Nextflow DSL2 crash course for HPC users, taught as part of my Nextflow Ambassadorship.\n\n\n\nOctober 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nOmics with R\n\n\nNC State University, Raleigh, NC\n\n\nTwo hands-on sessions on analyzing omics data in R, from tidyverse basics to RNA-seq differential expression, taught at the Bioinformatics Bonanza 2026.\n\n\n\nAugust 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nMetagenomics for Veterinary Science\n\n\nUniversity College Dublin, Dublin, Ireland\n\n\nA week of hands-on bioinformatics in R for veterinary science researchers, from tidyverse basics to metagenomics, viruses and plasmids, and RNA-seq.\n\n\n\nJune 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Hazel HPC\n\n\nNC State University, Raleigh, NC\n\n\nGetting started on NC State’s Hazel cluster, from the command line to job submission. Taught as a recurring series from September 2025 to May 2026, plus a week-long…\n\n\n\nMay 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nSoil Microorganisms and Their Role in Soil Health\n\n\nMission Garden, Tucson, AZ\n\n\nA community workshop on the microbes living in garden soil and why they matter for soil health.\n\n\n\nOctober 2024\n\n\n\n\n\n\n\n\n\n\n\nComplex Systems Science\n\n\nUniversity of Arizona, Tucson, AZ\n\n\nA two-day workshop on complexity science and network analysis for graduate students in environmental and ecological sciences.\n\n\n\nJanuary 2023\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About me",
+    "section": "",
+    "text": "I’m a postdoctoral researcher at the Bioinformatics Research Center at North Carolina State University, where I study viral, bacterial and plasmid communities in environmental metagenomes. I’m interested in how microbes adapt to a changing climate, and in finding solutions that improve outcomes for people and the planet.\nI care about open science, reproducibility and FAIR data: good science should be usable and verifiable by others, not just publishable. As a Nextflow Ambassador (2026), I lead workshops and write training materials that take graduate students and professionals from zero to running their own pipelines.\nDownload my CV"
+  },
+  {
+    "objectID": "about.html#research-interests",
+    "href": "about.html#research-interests",
+    "title": "About me",
+    "section": "Research interests",
+    "text": "Research interests\n\n\nViruses and plasmids in the environment\nViral and mobile genetic element discovery in soil, wastewater and gut metagenomes, and what these elements tell us about how microbial communities respond to disturbance.\n\n\nReproducible, benchmarked pipelines\nNextflow pipelines that benchmark machine-learning viral inference tools against simulated communities with known ground truth, to find out where they fail.\n\n\nOpen science and training\nBioinformatics curricula, from HPC and Bash to metagenomics and Nextflow, built to make computational biology accessible to non-specialists."
+  },
+  {
+    "objectID": "about.html#skills",
+    "href": "about.html#skills",
+    "title": "About me",
+    "section": "Skills",
+    "text": "Skills\n\nComputational: Python, R, Bash · Nextflow, Snakemake · HPC (SLURM, LSF, PBS), GNU Parallel, Chapel · Git, GitHub Actions · Java, JavaScript, Shiny\nBioinformatics: NGS cleaning, assembly and annotation · metagenomics, metatranscriptomics, metabolomics · viral and mobile genetic element inference · amplicon sequencing · functional and taxonomic annotation · microbial ecology and network analysis\nData science: supervised and unsupervised ML · data visualization · data mining and curation · FAIR data\nLab and field: soil sampling, DNA extraction, PCR, microbial culture · soil and water physicochemical analysis\nTools: Quarto, R Markdown, LaTeX · Adobe Illustrator, Canva, BioRender · RStudio, Jupyter, VS Code\nLanguages: Spanish and Galician (native) · English (fluent) · Catalan and Portuguese (conversational)"
+  },
+  {
+    "objectID": "about.html#more",
+    "href": "about.html#more",
+    "title": "About me",
+    "section": "More",
+    "text": "More\nMy full experience, education, talks and awards are in my CV. Photos and materials from workshops I’ve taught are on the Outreach page, and my papers are on Publications."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Mery Touceda-Suárez",
+    "section": "",
+    "text": "I’m a postdoctoral researcher at the Bioinformatics Research Center, North Carolina State University. I study viruses, bacteria and plasmids in environmental microbial communities, using metagenomics to understand how microbes respond to a changing climate.\nI build reproducible bioinformatics pipelines and teach others to do the same as a Nextflow Ambassador.\nMore about me Publications CV"
+  },
+  {
+    "objectID": "outreach/complex-systems-science/index.html",
+    "href": "outreach/complex-systems-science/index.html",
+    "title": "Complex Systems Science",
+    "section": "",
+    "text": "A two-day workshop on complexity science and network analysis for graduate students in environmental and ecological sciences."
+  },
+  {
     "objectID": "outreach/metagenomics-veterinary-science/index.html",
     "href": "outreach/metagenomics-veterinary-science/index.html",
     "title": "Metagenomics for Veterinary Science",
     "section": "",
-    "text": "Metagenomic analysis workflows for veterinary science researchers."
+    "text": "I taught the second week of the 2026 bioinformatics course at University College Dublin: five days of lectures in the morning and hands-on R exercises in the afternoon, ending with an exam."
   },
   {
-    "objectID": "writing.html",
-    "href": "writing.html",
-    "title": "Writing",
-    "section": "",
-    "text": "BlogPublished elsewhere\n\n\n\n\n\n\n\nHello, world\n\n\n\npersonal\n\n\n\nA first placeholder post. Replace with something you wrote.\n\n\n\n\n\nOct 2, 2026\n\n1 min\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\nA Microbial Ensemble\n\n\n\nessay\n\nsoil microbiome\n\n\n\nOn understanding the dynamics of soil microbiomes to make winter agriculture sustainable, and why a lasting relationship with our soils and their microbes matters.\n\n\n\n\n\nMay 21, 2024\n\n\nTerrain.org · Currents\n\n\n\n\n\nNo matching items"
+    "objectID": "outreach/metagenomics-veterinary-science/index.html#materials",
+    "href": "outreach/metagenomics-veterinary-science/index.html#materials",
+    "title": "Metagenomics for Veterinary Science",
+    "section": "Materials",
+    "text": "Materials\n\nGitHub repository, with everything below\n\nSlides\nR scripts and exercises\nDatasets"
   },
   {
-    "objectID": "art.html",
-    "href": "art.html",
-    "title": "Art",
+    "objectID": "outreach/omics-with-r/index.html",
+    "href": "outreach/omics-with-r/index.html",
+    "title": "Omics with R",
     "section": "",
-    "text": "Placeholder piece\n\n\nWatercolor, 30 × 40 cm. Replace this with a real piece.\n\n\n\n\n\nNo matching items"
+    "text": "An introduction to omics data analysis in R, taught as two hands-on sessions at the Bioinformatics Research Center’s Bioinformatics Bonanza 2026. Each session runs about two hours, and the materials are online so anyone can work through them."
+  },
+  {
+    "objectID": "outreach/omics-with-r/index.html#materials",
+    "href": "outreach/omics-with-r/index.html#materials",
+    "title": "Omics with R",
+    "section": "Materials",
+    "text": "Materials\n\nCourse website\n\nFoundations of R with the Tidyverse\nRNA-seq and Transcriptomics\n\nGitHub repository"
   },
   {
     "objectID": "publications.html",
@@ -82,96 +159,5 @@
     "title": "Publications",
     "section": "2020",
     "text": "2020\n\nAncient Genomic Regulatory Blocks Are a Source for Regulatory Gene Deserts in Vertebrates after Whole-Genome Duplications\nM. Touceda-Suárez, E.M. Kita, R.D. Acemel, P.N. Firbas, M.S. Magri, S. Naranjo, J.J. Tena, J.L. Gómez-Skarmeta, I. Maeso, M. Irimia\nMolecular Biology and Evolution. DOI"
-  },
-  {
-    "objectID": "art/placeholder-piece/index.html",
-    "href": "art/placeholder-piece/index.html",
-    "title": "Placeholder piece",
-    "section": "",
-    "text": "A few words about this piece: what inspired it, materials, process."
-  },
-  {
-    "objectID": "posts/hello-world/index.html",
-    "href": "posts/hello-world/index.html",
-    "title": "Hello, world",
-    "section": "",
-    "text": "This is a placeholder post. Write in Markdown, and add R or Python code chunks if you like."
-  },
-  {
-    "objectID": "posts/hello-world/index.html#a-section-heading",
-    "href": "posts/hello-world/index.html#a-section-heading",
-    "title": "Hello, world",
-    "section": "A section heading",
-    "text": "A section heading\n\nA tinted callout band, using ::: {.band}. Add .coral for the coral version."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Mery Touceda-Suárez",
-    "section": "",
-    "text": "I’m a postdoctoral researcher at the Bioinformatics Research Center, North Carolina State University. I study viruses, bacteria and plasmids in environmental microbial communities, using metagenomics to understand how microbes respond to a changing climate.\nI build reproducible bioinformatics pipelines and teach others to do the same as a Nextflow Ambassador.\nMore about me Publications CV"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About me",
-    "section": "",
-    "text": "I’m a postdoctoral researcher at the Bioinformatics Research Center at North Carolina State University, where I study viral, bacterial and plasmid communities in environmental metagenomes. I’m interested in how microbes adapt to a changing climate, and in finding solutions that improve outcomes for people and the planet.\nI care about open science, reproducibility and FAIR data: good science should be usable and verifiable by others, not just publishable. As a Nextflow Ambassador (2026), I lead workshops and write training materials that take graduate students and professionals from zero to running their own pipelines.\nDownload my CV"
-  },
-  {
-    "objectID": "about.html#research-interests",
-    "href": "about.html#research-interests",
-    "title": "About me",
-    "section": "Research interests",
-    "text": "Research interests\n\n\nViruses and plasmids in the environment\nViral and mobile genetic element discovery in soil, wastewater and gut metagenomes, and what these elements tell us about how microbial communities respond to disturbance.\n\n\nReproducible, benchmarked pipelines\nNextflow pipelines that benchmark machine-learning viral inference tools against simulated communities with known ground truth, to find out where they fail.\n\n\nOpen science and training\nBioinformatics curricula, from HPC and Bash to metagenomics and Nextflow, built to make computational biology accessible to non-specialists."
-  },
-  {
-    "objectID": "about.html#skills",
-    "href": "about.html#skills",
-    "title": "About me",
-    "section": "Skills",
-    "text": "Skills\n\nComputational: Python, R, Bash · Nextflow, Snakemake · HPC (SLURM, LSF, PBS), GNU Parallel, Chapel · Git, GitHub Actions · Java, JavaScript, Shiny\nBioinformatics: NGS cleaning, assembly and annotation · metagenomics, metatranscriptomics, metabolomics · viral and mobile genetic element inference · amplicon sequencing · functional and taxonomic annotation · microbial ecology and network analysis\nData science: supervised and unsupervised ML · data visualization · data mining and curation · FAIR data\nLab and field: soil sampling, DNA extraction, PCR, microbial culture · soil and water physicochemical analysis\nTools: Quarto, R Markdown, LaTeX · Adobe Illustrator, Canva, BioRender · RStudio, Jupyter, VS Code\nLanguages: Spanish and Galician (native) · English (fluent) · Catalan and Portuguese (conversational)"
-  },
-  {
-    "objectID": "about.html#more",
-    "href": "about.html#more",
-    "title": "About me",
-    "section": "More",
-    "text": "More\nMy full experience, education, talks and awards are in my CV. Photos and materials from workshops I’ve taught are on the Outreach page, and my papers are on Publications."
-  },
-  {
-    "objectID": "outreach.html",
-    "href": "outreach.html",
-    "title": "Outreach",
-    "section": "",
-    "text": "Workshops, courses and community events I’ve taught or organized. Each page has photos, a short description and links to the materials.\n\n\n\n\n\n\n\n\n\n\n\n\nNextflow Crash Course\n\n\nBRC, NC State University, Raleigh, NC\n\n\nFrom ‘Hello Nextflow’ to your first pipeline: a hands-on Nextflow DSL2 crash course for HPC users, taught as part of my Nextflow Ambassadorship.\n\n\n\nOctober 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nOmics with R\n\n\nNC State University, Raleigh, NC\n\n\nAn introduction to analyzing omics data in R.\n\n\n\nAugust 2026\n\n\n\n\n\n\n\n\n\n\n\nMetagenomics for Veterinary Science\n\n\nUniversity College Dublin, Dublin, Ireland\n\n\nMetagenomic analysis workflows for veterinary science researchers.\n\n\n\nJune 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Hazel HPC\n\n\nNC State University, Raleigh, NC\n\n\nGetting started on NC State’s Hazel cluster, from the command line to job submission. Taught as a recurring series from September 2025 to May 2026, plus a week-long…\n\n\n\nMay 2026\n\n\n\n\n\n\n\n\n\n\n\nSoil Microorganisms and Their Role in Soil Health\n\n\nMission Garden, Tucson, AZ\n\n\nA community workshop on the microbes living in garden soil and why they matter for soil health.\n\n\n\nOctober 2024\n\n\n\n\n\n\n\n\n\n\n\nComplex Systems Science\n\n\nUniversity of Arizona, Tucson, AZ\n\n\nA two-day workshop on complexity science and network analysis for graduate students in environmental and ecological sciences.\n\n\n\nJanuary 2023\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "outreach/intro-hazel-hpc/index.html",
-    "href": "outreach/intro-hazel-hpc/index.html",
-    "title": "Introduction to Hazel HPC",
-    "section": "",
-    "text": "Getting started on NC State’s Hazel cluster, from the command line to job submission. Taught as a recurring series from September 2025 to May 2026, plus a week-long intensive in May 2026."
-  },
-  {
-    "objectID": "outreach/nextflow-crash-course/index.html",
-    "href": "outreach/nextflow-crash-course/index.html",
-    "title": "Nextflow Crash Course",
-    "section": "",
-    "text": "A hands-on Nextflow DSL2 crash course for people who are comfortable on the command line but new to Nextflow. I co-developed and teach it with Seth Weaver at the Bioinformatics Research Center, as part of my Nextflow Ambassador (2026) program. The materials are self-paced, so anyone can work through them."
-  },
-  {
-    "objectID": "outreach/nextflow-crash-course/index.html#materials",
-    "href": "outreach/nextflow-crash-course/index.html#materials",
-    "title": "Nextflow Crash Course",
-    "section": "Materials",
-    "text": "Materials\n\nCourse website\nGitHub repository"
-  },
-  {
-    "objectID": "outreach/complex-systems-science/index.html",
-    "href": "outreach/complex-systems-science/index.html",
-    "title": "Complex Systems Science",
-    "section": "",
-    "text": "A two-day workshop on complexity science and network analysis for graduate students in environmental and ecological sciences."
   }
 ]

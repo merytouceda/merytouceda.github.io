@@ -1,6 +1,10 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - "*.qmd"
+    - "!art.qmd"   # Art section hidden for now; remove these two lines to bring it back
+    - "!art/"
   resources:
     - files/*
     - images/*
@@ -18,8 +22,6 @@ website:
         text: Publications
       - href: outreach.qmd
         text: Outreach
-      - href: art.qmd
-        text: Art
       - href: writing.qmd
         text: Writing
     right:

@@ -1,15 +1,7 @@
 [
   {
     "listing": "/writing.html",
-    "items": [
-      "/posts/hello-world/index.html"
-    ]
-  },
-  {
-    "listing": "/art.html",
-    "items": [
-      "/art/placeholder-piece/index.html"
-    ]
+    "items": []
   },
   {
     "listing": "/outreach.html",

@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Metagenomic analysis workflows for veterinary science researchers.">
+<meta name="description" content="A week of hands-on bioinformatics in R for veterinary science researchers, from tidyverse basics to metagenomics, viruses and plasmids, and RNA-seq.">
 
 <title>Metagenomics for Veterinary Science – Mery Touceda-Suárez</title>
 <style>
@@ -46,6 +46,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/bootstrap/bootstrap-4550219262ddeea725883fe6a3db2699.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="../../site_libs/bootstrap/bootstrap-dark-f5818300de34a70ac54b9987f2617eba.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <link href="../../site_libs/bootstrap/bootstrap-4550219262ddeea725883fe6a3db2699.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -285,10 +288,6 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Outreach</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../art.html"> 
-<span class="menu-text">Art</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="../../writing.html"> 
 <span class="menu-text">Writing</span></a>
   </li>  
@@ -328,7 +327,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div>
   <div class="description">
-    Metagenomic analysis workflows for veterinary science researchers.
+    A week of hands-on bioinformatics in R for veterinary science researchers, from tidyverse basics to metagenomics, viruses and plasmids, and RNA-seq.
   </div>
 </div>
 
@@ -351,23 +350,37 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Metagenomic analysis workflows for veterinary science researchers.</p>
-<!--
-Photos: put them in this folder and list them here. Click to enlarge.
+<p>I taught the second week of the 2026 bioinformatics course at University College Dublin: five days of lectures in the morning and hands-on R exercises in the afternoon, ending with an exam.</p>
+<ul>
+<li><strong>Day 1, R programming:</strong> R basics, then data analysis and visualization with the tidyverse</li>
+<li><strong>Day 2, metagenomics 1:</strong> an introduction to omics and metagenomics, with an exercise going from taxonomy to function</li>
+<li><strong>Day 3, metagenomics 2:</strong> viruses and plasmids, with an exercise on filtering geNomad output and phage and plasmid ecology</li>
+<li><strong>Day 4, transcriptomics:</strong> RNA-seq, differential expression with DESeq2 and co-expression networks with WGCNA</li>
+<li><strong>Day 5, hot topics:</strong> current topics in bioinformatics</li>
+</ul>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><a href="photo-2.jpg" class="lightbox" data-gallery="photos"><img src="photo-2.jpg" class="img-fluid" alt="Instructor pointing to a whiteboard diagram of a metagenomics workflow, from raw reads to clean reads to contigs"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><a href="photo-1.jpg" class="lightbox" data-gallery="photos"><img src="photo-1.jpg" class="img-fluid" alt="Workshop group photo outside the UCD Veterinary Sciences Centre"></a></p>
+</div>
+</div>
+</div>
+<section id="materials" class="level2">
+<h2 class="anchored" data-anchor-id="materials">Materials</h2>
+<ul>
+<li><a href="https://github.com/merytouceda/ucd_bioinformaticscourse_2026">GitHub repository</a>, with everything below
+<ul>
+<li><a href="https://github.com/merytouceda/ucd_bioinformaticscourse_2026/tree/main/slides">Slides</a></li>
+<li><a href="https://github.com/merytouceda/ucd_bioinformaticscourse_2026/tree/main/scripts">R scripts and exercises</a></li>
+<li><a href="https://github.com/merytouceda/ucd_bioinformaticscourse_2026/tree/main/data">Datasets</a></li>
+</ul></li>
+</ul>
 
-::: {layout-ncol=2}
-![](photo-1.jpg)
 
-![](photo-2.jpg)
-:::
-
-## Materials
-
-- [Slides](https://...)
-- [Workshop website / GitHub repo](https://...)
--->
-
-
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -784,6 +797,38 @@ Photos: put them in this folder and list them here. Click to enlarge.
   });
   </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

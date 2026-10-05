@@ -1,59 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://merytouceda.github.io/outreach/omics-with-r/index.html</loc>
-    <lastmod>2026-10-02T16:28:58.888Z</lastmod>
+    <loc>https://merytouceda.github.io/writing.html</loc>
+    <lastmod>2026-10-05T18:10:23.392Z</lastmod>
   </url>
   <url>
     <loc>https://merytouceda.github.io/outreach/soil-microorganisms-mission-garden/index.html</loc>
-    <lastmod>2026-10-02T15:40:42.764Z</lastmod>
+    <lastmod>2026-10-05T18:05:52.171Z</lastmod>
   </url>
   <url>
-    <loc>https://merytouceda.github.io/outreach/metagenomics-veterinary-science/index.html</loc>
-    <lastmod>2026-10-02T15:40:42.764Z</lastmod>
-  </url>
-  <url>
-    <loc>https://merytouceda.github.io/writing.html</loc>
-    <lastmod>2026-10-02T15:35:57.975Z</lastmod>
-  </url>
-  <url>
-    <loc>https://merytouceda.github.io/art.html</loc>
-    <lastmod>2026-10-02T14:31:05.793Z</lastmod>
-  </url>
-  <url>
-    <loc>https://merytouceda.github.io/publications.html</loc>
-    <lastmod>2026-10-02T14:45:06.476Z</lastmod>
-  </url>
-  <url>
-    <loc>https://merytouceda.github.io/art/placeholder-piece/index.html</loc>
-    <lastmod>2026-10-02T14:31:05.789Z</lastmod>
-  </url>
-  <url>
-    <loc>https://merytouceda.github.io/posts/hello-world/index.html</loc>
-    <lastmod>2026-10-02T14:31:05.791Z</lastmod>
-  </url>
-  <url>
-    <loc>https://merytouceda.github.io/index.html</loc>
-    <lastmod>2026-10-02T15:05:11.262Z</lastmod>
-  </url>
-  <url>
-    <loc>https://merytouceda.github.io/about.html</loc>
-    <lastmod>2026-10-02T15:40:59.565Z</lastmod>
-  </url>
-  <url>
-    <loc>https://merytouceda.github.io/outreach.html</loc>
-    <lastmod>2026-10-02T15:40:42.767Z</lastmod>
+    <loc>https://merytouceda.github.io/outreach/nextflow-crash-course/index.html</loc>
+    <lastmod>2026-10-05T18:05:52.170Z</lastmod>
   </url>
   <url>
     <loc>https://merytouceda.github.io/outreach/intro-hazel-hpc/index.html</loc>
     <lastmod>2026-10-02T16:28:58.888Z</lastmod>
   </url>
   <url>
-    <loc>https://merytouceda.github.io/outreach/nextflow-crash-course/index.html</loc>
-    <lastmod>2026-10-02T15:42:37.517Z</lastmod>
+    <loc>https://merytouceda.github.io/outreach.html</loc>
+    <lastmod>2026-10-02T15:40:42.767Z</lastmod>
+  </url>
+  <url>
+    <loc>https://merytouceda.github.io/about.html</loc>
+    <lastmod>2026-10-02T15:40:59.565Z</lastmod>
+  </url>
+  <url>
+    <loc>https://merytouceda.github.io/index.html</loc>
+    <lastmod>2026-10-02T15:05:11.262Z</lastmod>
   </url>
   <url>
     <loc>https://merytouceda.github.io/outreach/complex-systems-science/index.html</loc>
     <lastmod>2026-10-02T15:40:42.764Z</lastmod>
+  </url>
+  <url>
+    <loc>https://merytouceda.github.io/outreach/metagenomics-veterinary-science/index.html</loc>
+    <lastmod>2026-10-05T18:09:00.758Z</lastmod>
+  </url>
+  <url>
+    <loc>https://merytouceda.github.io/outreach/omics-with-r/index.html</loc>
+    <lastmod>2026-10-05T18:07:17.442Z</lastmod>
+  </url>
+  <url>
+    <loc>https://merytouceda.github.io/publications.html</loc>
+    <lastmod>2026-10-02T14:45:06.476Z</lastmod>
   </url>
 </urlset>

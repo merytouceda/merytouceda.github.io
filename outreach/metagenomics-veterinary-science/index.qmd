@@ -2,24 +2,28 @@
 title: "Metagenomics for Veterinary Science"
 date: 2026-06-01
 subtitle: "University College Dublin, Dublin, Ireland"
-description: "Metagenomic analysis workflows for veterinary science researchers."
+description: "A week of hands-on bioinformatics in R for veterinary science researchers, from tidyverse basics to metagenomics, viruses and plasmids, and RNA-seq."
 categories: [workshop, metagenomics]
-# image: photo-1.jpg   # card image on the Outreach page
+image: photo-2.jpg
 ---
 
-Metagenomic analysis workflows for veterinary science researchers.
+I taught the second week of the 2026 bioinformatics course at University College Dublin: five days of lectures in the morning and hands-on R exercises in the afternoon, ending with an exam.
 
-<!--
-Photos: put them in this folder and list them here. Click to enlarge.
+- **Day 1, R programming:** R basics, then data analysis and visualization with the tidyverse
+- **Day 2, metagenomics 1:** an introduction to omics and metagenomics, with an exercise going from taxonomy to function
+- **Day 3, metagenomics 2:** viruses and plasmids, with an exercise on filtering geNomad output and phage and plasmid ecology
+- **Day 4, transcriptomics:** RNA-seq, differential expression with DESeq2 and co-expression networks with WGCNA
+- **Day 5, hot topics:** current topics in bioinformatics
 
 ::: {layout-ncol=2}
-![](photo-1.jpg)
+![](photo-2.jpg){fig-alt="Instructor pointing to a whiteboard diagram of a metagenomics workflow, from raw reads to clean reads to contigs" group="photos"}
 
-![](photo-2.jpg)
+![](photo-1.jpg){fig-alt="Workshop group photo outside the UCD Veterinary Sciences Centre" group="photos"}
 :::
 
 ## Materials
 
-- [Slides](https://...)
-- [Workshop website / GitHub repo](https://...)
--->
+- [GitHub repository](https://github.com/merytouceda/ucd_bioinformaticscourse_2026), with everything below
+  - [Slides](https://github.com/merytouceda/ucd_bioinformaticscourse_2026/tree/main/slides)
+  - [R scripts and exercises](https://github.com/merytouceda/ucd_bioinformaticscourse_2026/tree/main/scripts)
+  - [Datasets](https://github.com/merytouceda/ucd_bioinformaticscourse_2026/tree/main/data)

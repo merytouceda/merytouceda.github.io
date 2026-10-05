@@ -4,7 +4,7 @@ date: 2026-10-03
 subtitle: "BRC, NC State University, Raleigh, NC"
 description: "From 'Hello Nextflow' to your first pipeline: a hands-on Nextflow DSL2 crash course for HPC users, taught as part of my Nextflow Ambassadorship."
 categories: [workshop, Nextflow, bioinformatics, HPC]
-# image: photo-1.jpg   # card image on the Outreach page
+image: photo-2.JPG
 ---
 
 A hands-on Nextflow DSL2 crash course for people who are comfortable on the command line but new to Nextflow. I co-developed and teach it with Seth Weaver at the Bioinformatics Research Center, as part of my **Nextflow Ambassador (2026)** program. The materials are self-paced, so anyone can work through them.
@@ -13,17 +13,13 @@ A hands-on Nextflow DSL2 crash course for people who are comfortable on the comm
 - **Day 1, fundamentals:** channels, processes, channel factories and operators, ending with a FastQC and trimming workflow
 - **Day 2, production:** configuration, modular processes, containers and SLURM execution, with a genome assembly capstone
 
+::: {layout-ncol=2}
+![](photo-2.JPG){fig-alt="Instructor pointing to Nextflow code on a large screen while students follow along on laptops" group="photos"}
+
+![](photo-1.JPG){fig-alt="Course participants posing for a group photo in front of a brick campus building" group="photos"}
+:::
+
 ## Materials
 
 - [Course website](https://hurwitzlab.github.io/nextflow_crash_course/)
 - [GitHub repository](https://github.com/hurwitzlab/nextflow_crash_course)
-
-<!--
-Photos: put them in this folder and list them here. Click to enlarge.
-
-::: {layout-ncol=2}
-![](photo-1.jpg)
-
-![](photo-2.jpg)
-:::
--->
