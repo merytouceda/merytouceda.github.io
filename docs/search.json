@@ -39,7 +39,7 @@
     "href": "outreach.html",
     "title": "Outreach",
     "section": "",
-    "text": "Workshops, courses and community events I’ve taught or organized. Each page has photos, a short description and links to the materials.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNextflow Crash Course\n\n\nBRC, NC State University, Raleigh, NC\n\n\nFrom ‘Hello Nextflow’ to your first pipeline: a hands-on Nextflow DSL2 crash course for HPC users, taught as part of my Nextflow Ambassadorship.\n\n\n\nOctober 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nOmics with R\n\n\nNC State University, Raleigh, NC\n\n\nTwo hands-on sessions on analyzing omics data in R, from tidyverse basics to RNA-seq differential expression, taught at the Bioinformatics Bonanza 2026.\n\n\n\nAugust 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nMetagenomics for Veterinary Science\n\n\nUniversity College Dublin, Dublin, Ireland\n\n\nA week of hands-on bioinformatics in R for veterinary science researchers, from tidyverse basics to metagenomics, viruses and plasmids, and RNA-seq.\n\n\n\nJune 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Hazel HPC\n\n\nNC State University, Raleigh, NC\n\n\nGetting started on NC State’s Hazel cluster, from the command line to job submission. Taught as a recurring series from September 2025 to May 2026, plus a week-long…\n\n\n\nMay 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nSoil Microorganisms and Their Role in Soil Health\n\n\nMission Garden, Tucson, AZ\n\n\nA community workshop on the microbes living in garden soil and why they matter for soil health.\n\n\n\nOctober 2024\n\n\n\n\n\n\n\n\n\n\n\nComplex Systems Science\n\n\nUniversity of Arizona, Tucson, AZ\n\n\nA two-day workshop on complexity science and network analysis for graduate students in environmental and ecological sciences.\n\n\n\nJanuary 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "Workshops, courses and community events I’ve taught or organized. Each page has photos, a short description and links to the materials.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNextflow Crash Course\n\n\nBRC, NC State University, Raleigh, NC\n\n\nFrom ‘Hello Nextflow’ to your first pipeline: a hands-on Nextflow DSL2 crash course for HPC users, taught as part of my Nextflow Ambassadorship.\n\n\n\nOctober 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nOmics with R\n\n\nNC State University, Raleigh, NC\n\n\nTwo hands-on sessions on analyzing omics data in R, from tidyverse basics to RNA-seq differential expression, taught at the Bioinformatics Bonanza 2026.\n\n\n\nAugust 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nMetagenomics for Veterinary Science\n\n\nUniversity College Dublin, Dublin, Ireland\n\n\nA week of hands-on bioinformatics in R for veterinary science researchers, from tidyverse basics to metagenomics, viruses and plasmids, and RNA-seq.\n\n\n\nJune 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nSoil Quest Raleigh\n\n\nCitizen science project with SciStarter, Raleigh, NC\n\n\nA citizen science project where Raleigh residents collect soil samples to map urban soil health across the city.\n\n\n\nJune 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Hazel HPC\n\n\nNC State University, Raleigh, NC\n\n\nGetting started on NC State’s Hazel cluster, from the command line to job submission. Taught as a recurring series from September 2025 to May 2026, plus a week-long…\n\n\n\nMay 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nSoil Microorganisms and Their Role in Soil Health\n\n\nMission Garden, Tucson, AZ\n\n\nA community workshop on the microbes living in garden soil and why they matter for soil health.\n\n\n\nOctober 2024\n\n\n\n\n\n\n\n\n\n\n\nComplex Systems Science\n\n\nUniversity of Arizona, Tucson, AZ\n\n\nA two-day workshop on complexity science and network analysis for graduate students in environmental and ecological sciences.\n\n\n\nJanuary 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -159,5 +159,19 @@
     "title": "Publications",
     "section": "2020",
     "text": "2020\n\nAncient Genomic Regulatory Blocks Are a Source for Regulatory Gene Deserts in Vertebrates after Whole-Genome Duplications\nM. Touceda-Suárez, E.M. Kita, R.D. Acemel, P.N. Firbas, M.S. Magri, S. Naranjo, J.J. Tena, J.L. Gómez-Skarmeta, I. Maeso, M. Irimia\nMolecular Biology and Evolution. DOI"
+  },
+  {
+    "objectID": "outreach/soil-quest/index.html",
+    "href": "outreach/soil-quest/index.html",
+    "title": "Soil Quest Raleigh",
+    "section": "",
+    "text": "Soil Quest is a citizen science project to evaluate the health and quality of urban soils in Raleigh, North Carolina, and how they support ecosystems and environmental services. I co-lead it with Dr. Stephanie Mathews at NC State University, in partnership with SciStarter, NC State University Libraries and the Citizen Science Campus.\nParticipants pick a site in Raleigh, fill in a short online form, collect a small soil sample (half a quart, no deeper than 8 inches) and drop it off at NC State. We analyze the soil chemistry and send each participant their results by email. The data are also combined into a Raleigh soil map.\nThanks to Deanna Bigio and the Wake County Master Gardeners for helping launch the project."
+  },
+  {
+    "objectID": "outreach/soil-quest/index.html#links",
+    "href": "outreach/soil-quest/index.html#links",
+    "title": "Soil Quest Raleigh",
+    "section": "Links",
+    "text": "Links\n\nProject page on SciStarter\nSample collection form"
   }
 ]
